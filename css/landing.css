@@ -1,0 +1,27 @@
+.hero {
+    background-color: #fefaf5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80rem;
+}
+
+.hero_info {
+    display: flex;
+    align-items: center;
+}
+
+.hero__image {
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    height: 15rem;
+}
+
+.hero__title {
+    width: 15rem;
+}
+
+.hero__description {
+    width: 17rem;
+}

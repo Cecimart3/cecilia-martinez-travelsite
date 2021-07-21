@@ -1,0 +1,31 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    height: 5rem;
+    
+}
+.nav-bar__title {
+    text-decoration: none;
+    color: #335576;
+}
+
+.nav-bar__list {
+    display: flex;
+}
+
+.nav-bar__item {
+    list-style: none;
+    margin-right: 1.25rem;
+}
+
