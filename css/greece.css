@@ -1,0 +1,11 @@
+.nav-bar__item--greece {
+    border-bottom: .25rem #db7a4e solid;
+}
+
+.destination-greece {
+    background-image: url(/assets/Images/greece.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 1rem;
+}
