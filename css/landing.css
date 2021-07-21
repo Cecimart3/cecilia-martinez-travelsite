@@ -42,6 +42,7 @@
 .recs {
     margin-bottom: 2rem;
 }
+
 .recs__title {
     color: #335576;
     margin-left: 1rem;
@@ -51,6 +52,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.recs__link {
+    text-decoration: none;
 }
 
 .card__hawaii {
