@@ -1,3 +1,6 @@
+.nav-bar__item--home {
+    border-bottom: .25rem #db7a4e solid;
+}
 .hero {
     background-color: #fefaf5;
     display: flex;
@@ -41,7 +44,14 @@
 }
 .recs__title {
     color: #335576;
+    margin-left: 1rem;
 }
+
+/* .recs__subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
 
 .recs__cards {
     display: flex;

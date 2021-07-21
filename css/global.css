@@ -12,6 +12,7 @@ body {
 .nav-bar {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #ffffff;
     height: 5rem;
     width: 100%;
@@ -20,15 +21,22 @@ body {
 .nav-bar__logo{
     text-decoration: none;
     color: #335576;
+    margin-left: 1rem;
 }
 
 .nav-bar__list {
     display: flex;
+    /* align-self: flex-end; */
 }
 
 .nav-bar__item {
     list-style: none;
     margin-right: 1.25rem;
+}
+
+.nav-bar__link {
+    text-decoration: none;
+    color: black;
 }
 
 .card {
@@ -41,6 +49,7 @@ body {
     align-items: flex-end;
     padding-right: 1rem;
     color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .footer {
@@ -57,6 +66,11 @@ body {
 
 .footer__subtitle {
     color: #db7a4e;
+}
+
+.footer__contact-info {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__hours {
