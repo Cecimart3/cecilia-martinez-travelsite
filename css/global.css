@@ -5,7 +5,6 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
-    padding: 0;
     width: 100%;
 }
 
@@ -14,7 +13,8 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: #ffffff;
-    height: 5rem;
+    padding: 1rem;
+    height: 3rem;
     width: 100%;
     
 }
@@ -26,12 +26,12 @@ body {
 
 .nav-bar__list {
     display: flex;
-    /* align-self: flex-end; */
 }
 
 .nav-bar__item {
     list-style: none;
     margin-right: 1.25rem;
+    padding: .5rem;
 }
 
 .nav-bar__link {
@@ -85,4 +85,52 @@ body {
     padding-right: 1rem;
     margin-top: 1rem;
     height: 2rem;
+}
+
+.destination-title {
+    color: white;
+    font-size: 4rem;
+    margin: 2rem;
+}
+.itinerary {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 3rem 5rem;
+}
+.itinerary-card {
+    background-color: white;
+    border: 1px black 20%;
+    border-radius: 5px;
+    height: 22rem;
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+}
+
+.itinerary-card__title {
+    border-bottom: .15rem black solid;
+    width: 9rem;
+    text-align: center;
+}
+.itinerary-card__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+.itinerary-card__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FEFAF5;
+    width: 14rem;
+    height: 3rem;
+    margin: .5rem;
 }

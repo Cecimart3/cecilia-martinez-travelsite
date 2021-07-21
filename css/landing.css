@@ -47,12 +47,6 @@
     margin-left: 1rem;
 }
 
-/* .recs__subtitle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
 .recs__cards {
     display: flex;
     flex-direction: row;
