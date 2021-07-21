@@ -6,6 +6,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 .nav-bar {
@@ -13,9 +14,10 @@ body {
     align-items: center;
     background-color: #ffffff;
     height: 5rem;
+    width: 100%;
     
 }
-.nav-bar__title {
+.nav-bar__logo{
     text-decoration: none;
     color: #335576;
 }
@@ -29,3 +31,44 @@ body {
     margin-right: 1.25rem;
 }
 
+.card {
+    border: 1px black 20%;
+    border-radius: 5px;
+    width: 10rem;
+    height: 15rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 1rem;
+    color: white;
+}
+
+.footer {
+    background-color: #FEFAF5;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+}
+
+.footer__title {
+    color: #335576;
+}
+
+.footer__subtitle {
+    color: #db7a4e;
+}
+
+.footer__hours {
+    display: flex;
+}
+
+.footer__day {
+    margin-right: 2rem;
+}
+
+.footer__icon {
+    padding-right: 1rem;
+    margin-top: 1rem;
+    height: 2rem;
+}
